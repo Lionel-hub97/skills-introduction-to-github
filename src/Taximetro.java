@@ -7,25 +7,40 @@
 */
 
 
-inport java.util.*;
+import java.util.*;
 public class Taximetro {
     public static void main(String[] args) {
-        int day = 3; // Puedes cambiar el valor para probar otros casos.
 
-
-        switch (zona){
-            case 1:
-                System.out.println("ZONA_A")
+        int ZONA;
+        double taxi_A, taxi_B, taxi_C, Preu = 02;
+        Scanner sc = new Scanner(System.in);
+        enum Zonas {ZONA_A, ZONA_B, ZONA_C;}
+        Zonas Z;
+        System.out.println("Per quina zona vols anar? (0) per ZONA_A , (1) ZONA_B, (2) per ZONA_C");
+        ZONA = sc.nextInt();
+        Z = Zonas.values()[ZONA];
+        Scanner taxi = new Scanner(System.in);
+        switch (Z){
+            case ZONA_A:
+                System.out.println("Quants minuts?");
+                taxi_A = taxi.nextInt();
+                Preu = 1.25 * taxi_A;
                 break;
-            case 2:
-                System.out.println("ZONA_B")
+            case ZONA_B:
+                System.out.println("Quants minuts?");
+                taxi_B = taxi.nextInt();
+                Preu = 1.25 * taxi_B;
                 break;
-            case 3:
-                System.out.println("ZONA_C")
+            case ZONA_C:
+                System.out.println("Quants km?");
+                taxi_C = taxi.nextInt();
+                Preu = 1.25 * taxi_C;
                 break;
             default:
-                System.out.println("NO HAY ZONAS PARA TU PRESENCIA")
+                System.out.println("NO HAY ZONAS PARA TU PRESENCIA");
                 break;
-        }
+            }
+        System.out.println(Preu+"$");
+
     }
 }
