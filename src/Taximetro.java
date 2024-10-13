@@ -12,9 +12,9 @@ public class Taximetro {
     public static void main(String[] args) {
 
         int ZONA;
-        double taxi_A, taxi_B, taxi_C, Preu = 02;
+        double taxi_A, taxi_B, taxi_C, Preu = 0;
         Scanner sc = new Scanner(System.in);
-        enum Zonas {ZONA_A, ZONA_B, ZONA_C;}
+        enum Zonas {ZONA_A, ZONA_B, ZONA_C}
         Zonas Z;
         System.out.println("Per quina zona vols anar? (0) per ZONA_A , (1) ZONA_B, (2) per ZONA_C");
         ZONA = sc.nextInt();
