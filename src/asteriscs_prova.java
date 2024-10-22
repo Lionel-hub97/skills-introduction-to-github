@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class asteriscs_prova {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Mida de la base del triangle: n = ");
         int num = sc.nextInt();
