@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Contentes_oriol {
+public class contentes_oriol {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

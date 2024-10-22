@@ -7,7 +7,7 @@
   		             |
 */
 import java.util.*;
-public class Contentes {
+public class Contentes_ignasi{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String a_="a";
