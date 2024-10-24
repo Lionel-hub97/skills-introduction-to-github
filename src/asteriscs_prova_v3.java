@@ -5,7 +5,7 @@ public class asteriscs_prova_v3 {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Mida de la base del triangle: n = ");
-        int num = sc.nextInt();
+        int num = (sc.nextInt()+1)/2;
         if (num > 0){
             for (int i = 0; i < num; i++){
                 System.out.println(" ".repeat(i) + "* ".repeat(num-i));
