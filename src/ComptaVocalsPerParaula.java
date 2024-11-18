@@ -28,7 +28,7 @@ public class ComptaVocalsPerParaula {
         Scanner sc = new Scanner(System.in);
         System.out.println("Escriu la frase per comptar vocals: ");
         String frase = sc.nextLine().toUpperCase(), vocals = "AEIOU", paraula = "";
-
+        
         int total_voc = 0, paraula_voc = 0, numParaules = 0, punt_partida = 0, punt_final = 0; // difertents variables utils
 
 
