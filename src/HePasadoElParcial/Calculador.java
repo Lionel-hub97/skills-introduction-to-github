@@ -1,3 +1,5 @@
+package HePasadoElParcial;
+
 import java.util.Scanner;
 
 public class Calculador {
@@ -23,4 +25,5 @@ public class Calculador {
             return x - y;
         }
     }
-}
+
+

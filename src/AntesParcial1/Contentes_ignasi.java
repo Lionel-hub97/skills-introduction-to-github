@@ -1,4 +1,4 @@
-/* Taula de tests
+package AntesParcial1;/* Taula de tests
   Entrada            | Sortida esperada
   -------------------------------------
         zdaa         |   Las a estan contentisimas (:

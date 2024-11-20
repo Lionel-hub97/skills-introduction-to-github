@@ -1,4 +1,4 @@
-/* taula de tests
+package AntesParcial1;/* taula de tests
   entrada            | sortida esperada
   -------------------------------------
    zona_a + (minuts)  | precio

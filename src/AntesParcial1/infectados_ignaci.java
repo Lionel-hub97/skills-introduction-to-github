@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.Scanner;
 public class infectados_ignaci {
     public static void main(String[] args) {

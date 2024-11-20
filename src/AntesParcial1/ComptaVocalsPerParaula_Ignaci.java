@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.Scanner;
 public class ComptaVocalsPerParaula_Ignaci {
     public static void main(String[] args) {

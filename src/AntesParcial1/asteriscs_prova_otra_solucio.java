@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.Scanner;
 public class asteriscs_prova_otra_solucio {
     public static void main(String[] args) {

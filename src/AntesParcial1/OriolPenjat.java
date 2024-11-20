@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.*;
 
 public class OriolPenjat {

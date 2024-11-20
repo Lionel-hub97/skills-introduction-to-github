@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.Scanner;
 public class Suma3UltimosDIgitos {
     public static void main(String[] args) {

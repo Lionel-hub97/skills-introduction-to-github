@@ -1,4 +1,4 @@
-package P0part2;
+package AntesParcial1;
 
 public class P0part2 {
     public static void main (String[] args){

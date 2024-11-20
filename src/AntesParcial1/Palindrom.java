@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 import java.util.*;
 public class Palindrom {
     public static void main(String[] args) {

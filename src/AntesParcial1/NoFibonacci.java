@@ -1,3 +1,5 @@
+package AntesParcial1;
+
 public class NoFibonacci {
     public static void main(String[] args) {
 

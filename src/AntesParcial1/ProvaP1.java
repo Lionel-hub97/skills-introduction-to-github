@@ -1,4 +1,4 @@
-/*
+package AntesParcial1;/*
  * Autor:  Alexander Borda Choque
  * Data:   24/10/24
  * Versió: 2.0
@@ -23,12 +23,12 @@ Hola, soc un/a estudiant.   |   "Hola," conté 2 vocals.
                             |   La frase conté 4 paraules i 9 vocals en total.
 */
 import java.util.*;
-public class ComptaVocalsPerParaula {
+public class ProvaP1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Escriu la frase per comptar vocals: ");
         String frase = sc.nextLine().toUpperCase(), vocals = "AEIOU", paraula = "";
-        
+
         int total_voc = 0, paraula_voc = 0, numParaules = 0, punt_partida = 0, punt_final = 0; // difertents variables utils
 
 
@@ -55,5 +55,4 @@ public class ComptaVocalsPerParaula {
         }
         System.out.println("La frase conté " + numParaules + " paraules" + " i " + total_voc + " vocals en total.");
     }
-
 }
