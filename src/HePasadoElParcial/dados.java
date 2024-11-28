@@ -8,23 +8,20 @@ public class dados {
         int num = sc.nextInt();
         int i = 0;
         Random random = new Random();
-        int [] cadena = new int[num];
+        int[] cadena = new int[num + 2];
         while (i < num) {
-            cadena [i] = random.nextInt(1, 7);
+            cadena[i + 1] = random.nextInt(1, 7);
             i++;
         }
-        for (int k = 0; k < cadena.length-1; k++) {
-            if (cadena[k] == cadena[k +1]) {
+        int[] nuevo = new int[num + 1];
+        for (int k = 1; k < cadena.length - 1; k++) {
+            if (cadena[k - 1] != cadena[k] && cadena[k] == cadena[k + 1]) {
                 System.out.print("(");
-                System.out.print(cadena[k]);
-            } else {
-                System.out.print(") ");
-                System.out.print(cadena[k]);
             }
-
+            System.out.print(cadena[k]+" ");
+            if (cadena[k - 1] == cadena[k] && cadena[k] != cadena[k + 1]) {
+                System.out.print("\b) ");
+            }
         }
-    }
-    static void repetits(int [] a){
-
     }
 }
